@@ -1,0 +1,6 @@
+{
+  "extends": "eslint-config-xadillax-style",
+  "parserOptions": {
+    "ecmaVersion": 2017
+  }
+}
