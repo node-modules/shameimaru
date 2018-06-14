@@ -10,8 +10,10 @@
   },
   "devDependencies": {
     "cnpm": "^6.0.0",
+    "coveralls": "^3.0.1",
     "eslint": "^4.19.1",
     "eslint-config-xadillax-style": "^1.10.0",
+    "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "npm": "^6.1.0",
     "rimraf": "^2.6.2",
