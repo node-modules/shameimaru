@@ -41,7 +41,7 @@
     "node": ">= 8.0.0"
   },
   "scripts": {
-    "test": "mocha test/*.test.js --timeout=30000",
-    "coverage": "istanbul cover mocha test/*.test.js --report lcovonly -- --timeout=30000 -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
+    "test": "mocha test/*.test.js --timeout=120000",
+    "coverage": "istanbul cover mocha test/*.test.js --report lcovonly -- --timeout=120000 -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
   }
 }
