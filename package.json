@@ -2,14 +2,20 @@
   "name": "shameimaru",
   "version": "1.0.0",
   "description": "Shameimaru Aya likes to traverse node_modules and capture the tree",
-  "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-xadillax-style": "^1.10.0"
-  },
   "dependencies": {
     "algorithmjs": "^1.0.0",
     "mz": "^2.7.0",
-    "npm-package-arg": "^6.1.0"
+    "npm-package-arg": "^6.1.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "cnpm": "^6.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-xadillax-style": "^1.10.0",
+    "mocha": "^5.2.0",
+    "npm": "^6.1.0",
+    "rimraf": "^2.6.2",
+    "should": "^13.2.1"
   },
   "author": "XadillaX <i@2333.moe> (https://xcoder.in)",
   "license": "MIT",
@@ -33,5 +39,9 @@
   ],
   "engines": {
     "node": ">= 8.0.0"
+  },
+  "scripts": {
+    "test": "mocha test/*.test.js --timeout=30000",
+    "coverage": "istanbul cover mocha test/*.test.js --report lcovonly -- --timeout=30000 -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
   }
 }

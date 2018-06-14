@@ -2,5 +2,13 @@
   "extends": "eslint-config-xadillax-style",
   "parserOptions": {
     "ecmaVersion": 2017
+  },
+  "globals": {
+    "it": true,
+    "describe": true,
+    "before": true,
+    "after": true,
+    "beforeEach": true,
+    "afterEach": true
   }
 }

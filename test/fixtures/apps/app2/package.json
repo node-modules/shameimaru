@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "npm": "http://registry.npm.taobao.org/npm/download/npm-3.10.10.tgz",
+    "cnpm": "6",
+    "abbrev": "< 1.0.8",
+    "cmd-shim": "1"
+  }
+}
