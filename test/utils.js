@@ -11,7 +11,7 @@ const path = require("path");
 
 const rimraf = require("rimraf");
 
-const REGISTRY = `--registry=${process.env.CIXX ? "https://registry.npmjs.org/" : "https://registry.npm.taobao.org/"}`;
+const REGISTRY = "--registry=https://registry.npm.taobao.org/";
 
 exports.install = function(dir, type) {
     dir = path.resolve(__dirname, "fixtures/apps/", dir);
