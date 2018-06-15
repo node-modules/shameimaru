@@ -1,5 +1,12 @@
 # Shameimaru.js
 
+[![Shameimaru](http://img.shields.io/npm/v/shameimaru.svg)](https://www.npmjs.org/package/shameimaru)
+[![Shameimaru](http://img.shields.io/npm/dm/shameimaru.svg)](https://www.npmjs.org/package/shameimaru)
+[![Build Status](https://travis-ci.org/XadillaX/shameimaru.svg?branch=master)](https://travis-ci.org/XadillaX/shameimaru)
+[![Coverage Status](https://img.shields.io/coveralls/XadillaX/shameimaru/master.svg)](https://coveralls.io/r/XadillaX/shameimaru?branch=master)
+[![License](https://img.shields.io/npm/l/shameimaru.svg?style=flat)](https://www.npmjs.org/package/shameimaru)
+[![Dependency Status](https://david-dm.org/XadillaX/shameimaru.svg)](https://david-dm.org/XadillaX/shameimaru)
+
 Shameimaru Aya likes to traverse node_modules and capture the tree.
 
 ![Shameimaru](shameimaru.jpg)
