@@ -1,0 +1,237 @@
+{
+  "@crand/mt19937": {
+    "ref": "06f4a991-b5d4-4569-ba75-92213b07a865",
+    "name": "@crand/mt19937",
+    "version": "2.0.0",
+    "from": "@crand/mt19937@*",
+    "resolved": "http://registry.npm.taobao.org/@crand/mt19937/download/@crand/mt19937-2.0.0.tgz",
+    "exists": true,
+    "rawSpec": "*"
+  },
+  "algorithmjs": {
+    "ref": "8f8a9bff-8666-424f-8b3d-7e0705224911",
+    "name": "algorithmjs",
+    "version": "1.0.0",
+    "from": "algorithmjs@^1.0.0",
+    "resolved": "http://registry.npm.taobao.org/algorithmjs/download/algorithmjs-1.0.0.tgz",
+    "exists": true,
+    "rawSpec": "^1.0.0"
+  },
+  "any-promise": {
+    "ref": "5d5e4bdf-651b-422b-9f33-757aa0b17be3",
+    "name": "any-promise",
+    "version": "0.2.0",
+    "from": "any-promise@0.2.0",
+    "resolved": "http://registry.npm.taobao.org/any-promise/download/any-promise-0.2.0.tgz",
+    "exists": true,
+    "rawSpec": "0.2.0"
+  },
+  "builtins": {
+    "ref": "5bc6daa9-95ca-4458-b43d-e117982f5044",
+    "name": "builtins",
+    "version": "1.0.3",
+    "from": "builtins@^1.0.3",
+    "resolved": "http://registry.npm.taobao.org/builtins/download/builtins-1.0.3.tgz",
+    "exists": true,
+    "adjustHere": true
+  },
+  "hosted-git-info": {
+    "ref": "b27faa06-3b66-4892-982b-d6b71e81392a",
+    "name": "hosted-git-info",
+    "version": "2.6.0",
+    "from": "hosted-git-info@^2.6.0",
+    "resolved": "http://registry.npm.taobao.org/hosted-git-info/download/hosted-git-info-2.6.0.tgz",
+    "exists": true,
+    "adjustHere": true
+  },
+  "mz": {
+    "ref": "b7919779-d511-4add-8cc4-48764056a02a",
+    "name": "mz",
+    "version": "2.7.0",
+    "from": "mz@^2.7.0",
+    "resolved": "http://registry.npm.taobao.org/mz/download/mz-2.7.0.tgz",
+    "exists": true,
+    "rawSpec": "^2.7.0",
+    "dependencies": {
+      "any-promise": {
+        "ref": "3d3ad2b0-ccc8-4d14-84dc-db794c557476",
+        "name": "any-promise",
+        "version": "1.3.0",
+        "from": "any-promise@^1.0.0",
+        "resolved": "http://registry.npm.taobao.org/any-promise/download/any-promise-1.3.0.tgz",
+        "exists": true,
+        "rawSpec": "^1.0.0"
+      },
+      "object-assign": {
+        "ref": "90aea966-f963-4f53-a486-a62c680dee9f",
+        "name": "object-assign",
+        "exists": false,
+        "rawSpec": "^4.0.1",
+        "ancestor": "5fe77ff0-6675-4321-8f37-e8cb167fb891"
+      },
+      "thenify-all": {
+        "ref": "f31a7542-51e1-477c-8597-d0cd4d1f581b",
+        "name": "thenify-all",
+        "exists": false,
+        "rawSpec": "^1.0.0",
+        "ancestor": "05f1e769-9e1b-41df-a8e5-54f58af168ac"
+      }
+    }
+  },
+  "npm-package-arg": {
+    "ref": "b9962bcf-c259-4ee2-9e53-ff5b792d4861",
+    "name": "npm-package-arg",
+    "version": "6.1.0",
+    "from": "npm-package-arg@^6.1.0",
+    "resolved": "http://registry.npm.taobao.org/npm-package-arg/download/npm-package-arg-6.1.0.tgz",
+    "exists": true,
+    "rawSpec": "^6.1.0",
+    "dependencies": {
+      "hosted-git-info": {
+        "ref": "8df40838-f1a4-4962-8ba1-4d30a4a273b6",
+        "name": "hosted-git-info",
+        "exists": false,
+        "rawSpec": "^2.6.0",
+        "ancestor": "b27faa06-3b66-4892-982b-d6b71e81392a"
+      },
+      "osenv": {
+        "ref": "583cafee-21e3-4f70-b2e2-3b9f4a7e2d4a",
+        "name": "osenv",
+        "exists": false,
+        "rawSpec": "^0.1.5",
+        "ancestor": "428ff910-b98a-4dc1-9712-863089fa1b12"
+      },
+      "semver": {
+        "ref": "6d3e56fa-5d35-4108-8399-42ad5fb24f06",
+        "name": "semver",
+        "exists": false,
+        "rawSpec": "^5.5.0",
+        "ancestor": "dddcd10e-c5b9-47a1-a3a7-eab0e8b0d764"
+      },
+      "validate-npm-package-name": {
+        "ref": "23bdf5ad-83f0-4bb7-8c96-1e0a731d3d93",
+        "name": "validate-npm-package-name",
+        "exists": false,
+        "rawSpec": "^3.0.0",
+        "ancestor": "b32fef03-e8ed-40c9-aab5-e115c3cd5a60"
+      }
+    }
+  },
+  "object-assign": {
+    "ref": "5fe77ff0-6675-4321-8f37-e8cb167fb891",
+    "name": "object-assign",
+    "version": "4.1.1",
+    "from": "object-assign@^4.0.1",
+    "resolved": "http://registry.npm.taobao.org/object-assign/download/object-assign-4.1.1.tgz",
+    "exists": true,
+    "adjustHere": true
+  },
+  "os-homedir": {
+    "ref": "16ee051f-ba9d-47b6-a3ca-654b97361523",
+    "name": "os-homedir",
+    "version": "1.0.2",
+    "from": "os-homedir@^1.0.0",
+    "resolved": "http://registry.npm.taobao.org/os-homedir/download/os-homedir-1.0.2.tgz",
+    "exists": true,
+    "adjustHere": true
+  },
+  "os-tmpdir": {
+    "ref": "4ba70a32-362d-453a-a0c7-6cc197512968",
+    "name": "os-tmpdir",
+    "version": "1.0.2",
+    "from": "os-tmpdir@^1.0.0",
+    "resolved": "http://registry.npm.taobao.org/os-tmpdir/download/os-tmpdir-1.0.2.tgz",
+    "exists": true,
+    "adjustHere": true
+  },
+  "osenv": {
+    "ref": "428ff910-b98a-4dc1-9712-863089fa1b12",
+    "name": "osenv",
+    "version": "0.1.5",
+    "from": "osenv@^0.1.5",
+    "resolved": "http://registry.npm.taobao.org/osenv/download/osenv-0.1.5.tgz",
+    "exists": true,
+    "adjustHere": true,
+    "dependencies": {
+      "os-homedir": {
+        "ref": "a1773745-e14b-4116-a596-50200f604574",
+        "name": "os-homedir",
+        "exists": false,
+        "rawSpec": "^1.0.0",
+        "ancestor": "16ee051f-ba9d-47b6-a3ca-654b97361523"
+      },
+      "os-tmpdir": {
+        "ref": "8ff466ae-9033-454c-ac0c-91db9e648e6c",
+        "name": "os-tmpdir",
+        "exists": false,
+        "rawSpec": "^1.0.0",
+        "ancestor": "4ba70a32-362d-453a-a0c7-6cc197512968"
+      }
+    }
+  },
+  "semver": {
+    "ref": "dddcd10e-c5b9-47a1-a3a7-eab0e8b0d764",
+    "name": "semver",
+    "version": "5.5.0",
+    "from": "semver@^5.5.0",
+    "resolved": "http://registry.npm.taobao.org/semver/download/semver-5.5.0.tgz",
+    "exists": true,
+    "adjustHere": true
+  },
+  "thenify": {
+    "ref": "ed8d1a05-76ac-4931-905f-a4295fe2d58c",
+    "name": "thenify",
+    "version": "3.3.0",
+    "from": "thenify@>= 3.1.0 < 4",
+    "resolved": "http://registry.npm.taobao.org/thenify/download/thenify-3.3.0.tgz",
+    "exists": true,
+    "adjustHere": true,
+    "dependencies": {
+      "any-promise": {
+        "ref": "93697efa-ac07-4266-9759-b2e68933a728",
+        "name": "any-promise",
+        "version": "1.3.0",
+        "from": "any-promise@^1.0.0",
+        "resolved": "http://registry.npm.taobao.org/any-promise/download/any-promise-1.3.0.tgz",
+        "exists": true,
+        "rawSpec": "^1.0.0"
+      }
+    }
+  },
+  "thenify-all": {
+    "ref": "05f1e769-9e1b-41df-a8e5-54f58af168ac",
+    "name": "thenify-all",
+    "version": "1.6.0",
+    "from": "thenify-all@^1.0.0",
+    "resolved": "http://registry.npm.taobao.org/thenify-all/download/thenify-all-1.6.0.tgz",
+    "exists": true,
+    "adjustHere": true,
+    "dependencies": {
+      "thenify": {
+        "ref": "36c5d4d5-c8e9-41fb-814a-f30cc61ec602",
+        "name": "thenify",
+        "exists": false,
+        "rawSpec": ">= 3.1.0 < 4",
+        "ancestor": "ed8d1a05-76ac-4931-905f-a4295fe2d58c"
+      }
+    }
+  },
+  "validate-npm-package-name": {
+    "ref": "b32fef03-e8ed-40c9-aab5-e115c3cd5a60",
+    "name": "validate-npm-package-name",
+    "version": "3.0.0",
+    "from": "validate-npm-package-name@^3.0.0",
+    "resolved": "http://registry.npm.taobao.org/validate-npm-package-name/download/validate-npm-package-name-3.0.0.tgz",
+    "exists": true,
+    "adjustHere": true,
+    "dependencies": {
+      "builtins": {
+        "ref": "53d35eb8-90ad-491b-a0fc-a738fb732646",
+        "name": "builtins",
+        "exists": false,
+        "rawSpec": "^1.0.3",
+        "ancestor": "5bc6daa9-95ca-4458-b43d-e117982f5044"
+      }
+    }
+  }
+}
