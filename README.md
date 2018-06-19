@@ -2,10 +2,10 @@
 
 [![Shameimaru](http://img.shields.io/npm/v/shameimaru.svg)](https://www.npmjs.org/package/shameimaru)
 [![Shameimaru](http://img.shields.io/npm/dm/shameimaru.svg)](https://www.npmjs.org/package/shameimaru)
-[![Build Status](https://travis-ci.org/XadillaX/shameimaru.svg?branch=master)](https://travis-ci.org/XadillaX/shameimaru)
-[![Coverage Status](https://img.shields.io/coveralls/XadillaX/shameimaru/master.svg)](https://coveralls.io/r/XadillaX/shameimaru?branch=master)
+[![Build Status](https://travis-ci.org/node-modules/shameimaru.svg?branch=master)](https://travis-ci.org/node-modules/shameimaru)
+[![Coverage Status](https://img.shields.io/coveralls/node-modules/shameimaru/master.svg)](https://coveralls.io/r/node-modules/shameimaru?branch=master)
 [![License](https://img.shields.io/npm/l/shameimaru.svg?style=flat)](https://www.npmjs.org/package/shameimaru)
-[![Dependency Status](https://david-dm.org/XadillaX/shameimaru.svg)](https://david-dm.org/XadillaX/shameimaru)
+[![Dependency Status](https://david-dm.org/node-modules/shameimaru.svg)](https://david-dm.org/node-modules/shameimaru)
 
 Shameimaru Aya likes to traverse node_modules and capture the tree.
 
@@ -96,5 +96,3 @@ Each element in the result may contains keys as below:
 ## Contribute
 
 You're welcome to fork and make pull requests!
-
-「雖然我覺得不怎麼可能有人會關注我」

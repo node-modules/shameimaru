@@ -1,8 +1,3 @@
-/**
- * XadillaX <i@2333.moe> created at 2018-06-13 15:39:26 with ❤
- *
- * Copyright (c) 2018 xcoder.in, all rights reserved.
- */
 "use strict";
 
 const cp = require("child_process");
