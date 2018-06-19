@@ -1,6 +1,6 @@
 {
   "name": "shameimaru",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shameimaru Aya likes to traverse node_modules and capture the tree",
   "dependencies": {
     "algorithmjs": "^1.0.0",
