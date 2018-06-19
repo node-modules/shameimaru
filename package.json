@@ -27,14 +27,14 @@
     "lib",
     "index.js"
   ],
-  "homepage": "https://github.com/XadillaX/shameimaru",
+  "homepage": "https://github.com/node-modules/shameimaru",
   "repository": {
     "type": "git",
-    "url": "git://github.com/XadillaX/shameimaru.git",
-    "web": "https://github.com/XadillaX/shameimaru"
+    "url": "git://github.com/node-modules/shameimaru.git",
+    "web": "https://github.com/node-modules/shameimaru"
   },
   "bugs": {
-    "url": "https://github.com/XadillaX/shameimaru"
+    "url": "https://github.com/node-modules/shameimaru"
   },
   "keywords": [
     "dependency tree",
