@@ -9,6 +9,9 @@
     "uuid": "^3.2.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
     "cnpm": "^6.0.0",
     "coveralls": "^3.0.1",
     "eslint": "^4.19.1",
@@ -25,6 +28,7 @@
   "main": "index.js",
   "files": [
     "lib",
+    "dist",
     "index.js"
   ],
   "homepage": "https://github.com/node-modules/shameimaru",
@@ -40,11 +44,10 @@
     "dependency tree",
     "shameimaru"
   ],
-  "engines": {
-    "node": ">= 8.0.0"
-  },
   "scripts": {
+    "build": "rm -rf dist && babel lib --out-dir dist",
     "test": "mocha test/*.test.js --timeout=120000",
+    "prepublish": "npm run build",
     "coverage": "istanbul cover _mocha --report lcovonly -- test/*.test.js --timeout=120000 -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
   }
 }

@@ -1,3 +1,3 @@
 "use strict";
 
-module.exports = require("./lib/shameimaru");
+module.exports = require("./dist/shameimaru");
