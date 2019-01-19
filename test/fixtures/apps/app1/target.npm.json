@@ -1,6 +1,6 @@
 {
   "@crand/mt19937": {
-    "ref": "06f4a991-b5d4-4569-ba75-92213b07a865",
+    "ref": "c313eaea-36ce-4096-8e91-6d90d09293c3",
     "name": "@crand/mt19937",
     "version": "2.0.0",
     "from": "@crand/mt19937@*",
@@ -9,7 +9,7 @@
     "rawSpec": "*"
   },
   "algorithmjs": {
-    "ref": "8f8a9bff-8666-424f-8b3d-7e0705224911",
+    "ref": "41be841d-dba3-47f3-9388-47c818cbd290",
     "name": "algorithmjs",
     "version": "1.0.0",
     "from": "algorithmjs@^1.0.0",
@@ -18,7 +18,7 @@
     "rawSpec": "^1.0.0"
   },
   "any-promise": {
-    "ref": "5d5e4bdf-651b-422b-9f33-757aa0b17be3",
+    "ref": "db9441a8-bbde-4479-8ee9-ee8a3cfc9cd7",
     "name": "any-promise",
     "version": "0.2.0",
     "from": "any-promise@0.2.0",
@@ -27,7 +27,7 @@
     "rawSpec": "0.2.0"
   },
   "builtins": {
-    "ref": "5bc6daa9-95ca-4458-b43d-e117982f5044",
+    "ref": "c0746454-ed71-471e-a76a-28ed87f08a52",
     "name": "builtins",
     "version": "1.0.3",
     "from": "builtins@^1.0.3",
@@ -36,16 +36,16 @@
     "adjustHere": true
   },
   "hosted-git-info": {
-    "ref": "b27faa06-3b66-4892-982b-d6b71e81392a",
+    "ref": "927ea367-8259-4e17-9531-0352228ab1a6",
     "name": "hosted-git-info",
-    "version": "2.6.0",
+    "version": "2.7.1",
     "from": "hosted-git-info@^2.6.0",
-    "resolved": "http://registry.npm.taobao.org/hosted-git-info/download/hosted-git-info-2.6.0.tgz",
+    "resolved": "http://registry.npm.taobao.org/hosted-git-info/download/hosted-git-info-2.7.1.tgz",
     "exists": true,
     "adjustHere": true
   },
   "mz": {
-    "ref": "b7919779-d511-4add-8cc4-48764056a02a",
+    "ref": "8d244ce8-682a-485b-a9cf-9efc2cb31f1e",
     "name": "mz",
     "version": "2.7.0",
     "from": "mz@^2.7.0",
@@ -54,7 +54,7 @@
     "rawSpec": "^2.7.0",
     "dependencies": {
       "any-promise": {
-        "ref": "3d3ad2b0-ccc8-4d14-84dc-db794c557476",
+        "ref": "82477586-75bd-485a-99bb-64f7bf397183",
         "name": "any-promise",
         "version": "1.3.0",
         "from": "any-promise@^1.0.0",
@@ -63,23 +63,23 @@
         "rawSpec": "^1.0.0"
       },
       "object-assign": {
-        "ref": "90aea966-f963-4f53-a486-a62c680dee9f",
+        "ref": "743bb5a0-2cd0-4573-b39c-0ed1db331fa6",
         "name": "object-assign",
         "exists": false,
         "rawSpec": "^4.0.1",
-        "ancestor": "5fe77ff0-6675-4321-8f37-e8cb167fb891"
+        "ancestor": "6f47bbcb-08b0-4254-ba65-26098dc78bbf"
       },
       "thenify-all": {
-        "ref": "f31a7542-51e1-477c-8597-d0cd4d1f581b",
+        "ref": "84179258-886a-466e-a61a-14b00814a03d",
         "name": "thenify-all",
         "exists": false,
         "rawSpec": "^1.0.0",
-        "ancestor": "05f1e769-9e1b-41df-a8e5-54f58af168ac"
+        "ancestor": "309a7ff8-bcb1-467c-82ba-f5bd090fe7b4"
       }
     }
   },
   "npm-package-arg": {
-    "ref": "b9962bcf-c259-4ee2-9e53-ff5b792d4861",
+    "ref": "be90906c-9d01-429e-95bf-351aa3c5f0c1",
     "name": "npm-package-arg",
     "version": "6.1.0",
     "from": "npm-package-arg@^6.1.0",
@@ -88,37 +88,37 @@
     "rawSpec": "^6.1.0",
     "dependencies": {
       "hosted-git-info": {
-        "ref": "8df40838-f1a4-4962-8ba1-4d30a4a273b6",
+        "ref": "9b10c892-7445-481d-b5f1-5e38928c30d8",
         "name": "hosted-git-info",
         "exists": false,
         "rawSpec": "^2.6.0",
-        "ancestor": "b27faa06-3b66-4892-982b-d6b71e81392a"
+        "ancestor": "927ea367-8259-4e17-9531-0352228ab1a6"
       },
       "osenv": {
-        "ref": "583cafee-21e3-4f70-b2e2-3b9f4a7e2d4a",
+        "ref": "a632af20-28b9-4c3f-b426-a12b5a5d4cca",
         "name": "osenv",
         "exists": false,
         "rawSpec": "^0.1.5",
-        "ancestor": "428ff910-b98a-4dc1-9712-863089fa1b12"
+        "ancestor": "2cd4b071-3b63-489f-a205-7bcd3acce05f"
       },
       "semver": {
-        "ref": "6d3e56fa-5d35-4108-8399-42ad5fb24f06",
+        "ref": "0c22e0db-e6d5-4695-85e5-972cb500152c",
         "name": "semver",
         "exists": false,
         "rawSpec": "^5.5.0",
-        "ancestor": "dddcd10e-c5b9-47a1-a3a7-eab0e8b0d764"
+        "ancestor": "0e50adf2-1dd4-4dda-8e3c-0b6f2c2d7104"
       },
       "validate-npm-package-name": {
-        "ref": "23bdf5ad-83f0-4bb7-8c96-1e0a731d3d93",
+        "ref": "cf913368-9eef-4f95-881b-0f457191724c",
         "name": "validate-npm-package-name",
         "exists": false,
         "rawSpec": "^3.0.0",
-        "ancestor": "b32fef03-e8ed-40c9-aab5-e115c3cd5a60"
+        "ancestor": "b8c98e3d-232f-467a-a43a-4d4e479c7832"
       }
     }
   },
   "object-assign": {
-    "ref": "5fe77ff0-6675-4321-8f37-e8cb167fb891",
+    "ref": "6f47bbcb-08b0-4254-ba65-26098dc78bbf",
     "name": "object-assign",
     "version": "4.1.1",
     "from": "object-assign@^4.0.1",
@@ -127,7 +127,7 @@
     "adjustHere": true
   },
   "os-homedir": {
-    "ref": "16ee051f-ba9d-47b6-a3ca-654b97361523",
+    "ref": "7fa1ce4b-9136-424d-af70-cd96eabda612",
     "name": "os-homedir",
     "version": "1.0.2",
     "from": "os-homedir@^1.0.0",
@@ -136,7 +136,7 @@
     "adjustHere": true
   },
   "os-tmpdir": {
-    "ref": "4ba70a32-362d-453a-a0c7-6cc197512968",
+    "ref": "7f8c4ec0-04c9-4514-9ef7-602f1abd6bc5",
     "name": "os-tmpdir",
     "version": "1.0.2",
     "from": "os-tmpdir@^1.0.0",
@@ -145,7 +145,7 @@
     "adjustHere": true
   },
   "osenv": {
-    "ref": "428ff910-b98a-4dc1-9712-863089fa1b12",
+    "ref": "2cd4b071-3b63-489f-a205-7bcd3acce05f",
     "name": "osenv",
     "version": "0.1.5",
     "from": "osenv@^0.1.5",
@@ -154,32 +154,32 @@
     "adjustHere": true,
     "dependencies": {
       "os-homedir": {
-        "ref": "a1773745-e14b-4116-a596-50200f604574",
+        "ref": "d3dc14dd-469b-4a33-8f9e-e3b1388d98e0",
         "name": "os-homedir",
         "exists": false,
         "rawSpec": "^1.0.0",
-        "ancestor": "16ee051f-ba9d-47b6-a3ca-654b97361523"
+        "ancestor": "7fa1ce4b-9136-424d-af70-cd96eabda612"
       },
       "os-tmpdir": {
-        "ref": "8ff466ae-9033-454c-ac0c-91db9e648e6c",
+        "ref": "9ece8e7b-7f8a-4a0d-b7b0-a545e53212de",
         "name": "os-tmpdir",
         "exists": false,
         "rawSpec": "^1.0.0",
-        "ancestor": "4ba70a32-362d-453a-a0c7-6cc197512968"
+        "ancestor": "7f8c4ec0-04c9-4514-9ef7-602f1abd6bc5"
       }
     }
   },
   "semver": {
-    "ref": "dddcd10e-c5b9-47a1-a3a7-eab0e8b0d764",
+    "ref": "0e50adf2-1dd4-4dda-8e3c-0b6f2c2d7104",
     "name": "semver",
-    "version": "5.5.0",
+    "version": "5.6.0",
     "from": "semver@^5.5.0",
-    "resolved": "http://registry.npm.taobao.org/semver/download/semver-5.5.0.tgz",
+    "resolved": "http://registry.npm.taobao.org/semver/download/semver-5.6.0.tgz",
     "exists": true,
     "adjustHere": true
   },
   "thenify": {
-    "ref": "ed8d1a05-76ac-4931-905f-a4295fe2d58c",
+    "ref": "8e2baaef-190f-4a62-a60f-655c3b916cde",
     "name": "thenify",
     "version": "3.3.0",
     "from": "thenify@>= 3.1.0 < 4",
@@ -188,7 +188,7 @@
     "adjustHere": true,
     "dependencies": {
       "any-promise": {
-        "ref": "93697efa-ac07-4266-9759-b2e68933a728",
+        "ref": "62a745b7-dd1a-497d-871b-33900c7ff602",
         "name": "any-promise",
         "version": "1.3.0",
         "from": "any-promise@^1.0.0",
@@ -199,7 +199,7 @@
     }
   },
   "thenify-all": {
-    "ref": "05f1e769-9e1b-41df-a8e5-54f58af168ac",
+    "ref": "309a7ff8-bcb1-467c-82ba-f5bd090fe7b4",
     "name": "thenify-all",
     "version": "1.6.0",
     "from": "thenify-all@^1.0.0",
@@ -208,16 +208,16 @@
     "adjustHere": true,
     "dependencies": {
       "thenify": {
-        "ref": "36c5d4d5-c8e9-41fb-814a-f30cc61ec602",
+        "ref": "343493e0-ee00-4aa9-8308-7c9cf386211f",
         "name": "thenify",
         "exists": false,
         "rawSpec": ">= 3.1.0 < 4",
-        "ancestor": "ed8d1a05-76ac-4931-905f-a4295fe2d58c"
+        "ancestor": "8e2baaef-190f-4a62-a60f-655c3b916cde"
       }
     }
   },
   "validate-npm-package-name": {
-    "ref": "b32fef03-e8ed-40c9-aab5-e115c3cd5a60",
+    "ref": "b8c98e3d-232f-467a-a43a-4d4e479c7832",
     "name": "validate-npm-package-name",
     "version": "3.0.0",
     "from": "validate-npm-package-name@^3.0.0",
@@ -226,11 +226,11 @@
     "adjustHere": true,
     "dependencies": {
       "builtins": {
-        "ref": "53d35eb8-90ad-491b-a0fc-a738fb732646",
+        "ref": "8069f4d6-4190-4362-a418-e58e7c114bb4",
         "name": "builtins",
         "exists": false,
         "rawSpec": "^1.0.3",
-        "ancestor": "5bc6daa9-95ca-4458-b43d-e117982f5044"
+        "ancestor": "c0746454-ed71-471e-a76a-28ed87f08a52"
       }
     }
   }

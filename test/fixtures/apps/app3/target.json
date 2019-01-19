@@ -1,0 +1,17 @@
+{
+  "a": {
+    "ref": "5db625ba-5b24-4f0c-8fa3-97673356f44a",
+    "name": "a",
+    "exists": true,
+    "rawSpec": "*",
+    "dependencies": {
+      "b": {
+        "ref": "224d38ad-3119-4c97-8a38-140b48dfe982",
+        "name": "b",
+        "exists": false,
+        "rawSpec": "*",
+        "missing": true
+      }
+    }
+  }
+}
