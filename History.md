@@ -1,4 +1,10 @@
 
+1.0.2 / 2019-01-21
+==================
+
+**fixes**
+  * [[`bb5624f`](http://github.com/XadillaX/shameimaru/commit/bb5624fa15786c82da3a62ced487b94cfdae4055)] - fix: error while there's an broken symbol link (#4) (Khaidi Chu <<i@2333.moe>>)
+
 1.0.1 / 2018-06-19
 ==================
 
