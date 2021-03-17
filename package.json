@@ -4,6 +4,7 @@
   "description": "Shameimaru Aya likes to traverse node_modules and capture the tree",
   "dependencies": {
     "algorithmjs": "^1.0.0",
+    "bluebird": "^3.7.2",
     "mz": "^2.7.0",
     "npm-package-arg": "^6.1.0",
     "uuid": "^3.2.1"

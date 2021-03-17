@@ -2,6 +2,7 @@
 
 require("should");
 
+const { CancellationError } = require("bluebird");
 const Shameimaru = require("../");
 const utils = require("./utils");
 
@@ -20,6 +21,17 @@ describe("app1.test.js", () => {
 
             // require("fs").writeFileSync("./test/fixtures/apps/app1/target.npm.json", JSON.stringify(tree, 0, 2));
         });
+
+        it("#traverse canncel", async function() {
+            const shameimaru = new Shameimaru("./test/fixtures/apps/app1");
+            console.time("app1#npm");
+            const promise = shameimaru.traverse();
+            setTimeout(() => {
+                shameimaru.cancel();
+            }, 0);
+            console.timeEnd("app1#npm");
+            promise.should.rejectedWith(CancellationError);
+        })
     });
 
     describe("cnpm 6", () => {
